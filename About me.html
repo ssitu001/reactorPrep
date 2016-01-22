@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About me</title>
+
+    <style> 
+      h1 {
+        font-size: 50px;
+        color: #646B94;
+
+      };
+
+      p {
+        color: ;
+      }
+
+      .haiku {
+        font-size: 12px;
+        color: #436554;
+      }
+
+      #header {
+        background-color:black;
+        color:#646B94;
+        text-align:center;
+        padding:5px;
+    };
+
+      #sports {
+        display: inline-block;
+        width: 250px;
+
+      }
+ 
+      .sports {
+        display: inline-block;
+      }
+
+      img {
+        width: 300px;
+        height: 300px;
+      }
+
+
+
+
+
+
+    </style>
+
+
+
+  </head>
+  <body>
+    <div id = "header">
+    <h1>Simon Situ</h1>
+  </div>
+      <h2>About me</h2>
+        <p>Born and raised in San Francisco! </p>
+        <img src = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfPiNYSHpsHz1yJQK4Ehuu3pPtGv_-sidVl7GZpQX6V7rMKkPrJw" />
+
+      <!--<h2 > Haiku </h2> 
+
+      <div class= "haiku"> 
+      <p> This haiku consist of 3 lines</p>
+      <p> This line suppose to have 7 syllables</p>
+      <p> This is my first haiku</p>
+      </div> -->
+
+      <h2>Favorite Movie </h2>
+        <p> Sicario </p>
+        <img src="http://ia.media-imdb.com/images/M/MV5BMjA5NjM3NTk1M15BMl5BanBnXkFtZTgwMzg1MzU2NjE@._V1_SX214_AL_.jpg" />
+   
+
+
+      <h2>Hobbies</h2>
+        <ul>
+          <li> Car enthusiast</li>
+          <li> Working Out</li>
+          <li> Sightseeing</li>
+         </ul>
+       <h2>Current Occupation</h2>
+        <p> Sr. Credit Risk Analyst with JP Morgan Chase.</p>
+        <img src = "http://i.forbesimg.com/media/lists/companies/jpmorgan-chase_416x416.jpg"/>
+
+          <h2>So, why am I learning how to code?</h2>
+            <p>I want build cool applications that will make everyday life easier. </p>
+            
+        <h2>My dream vacation spots are:</h2>
+          <ul>
+            <li> Fiji</li>
+          <img src="http://www.tourist-destinations.net/wp-content/uploads/2012/04/viaggio-alle-isole-fiji.jpg" />
+
+            <li> Thailand</li>
+            <img src="https://i.guim.co.uk/img/media/7b99c0015501a5ac0e7bcb28545fdd28e5989dd5/124_125_1280_811/master/1280.jpg?w=1125&q=85&auto=format&sharp=10&s=1bec9d10ffc9882344d531e41f0671b4" />
+            <li> Iceland</li>
+            <img src="https://guidetoiceland.is/image/167234/x/0/iceland-winter-tour-4-day-holiday-0.jpg"/>
+          </ul>
+
+        <h2>My favorite sports teams are:</h2>
+        <div id = "sports">
+        <div class = "sports">
+          <img src = "http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/gsw.png"/>
+          </div>
+
+            <div class = "sports">
+          <img src = "http://www.sanfranciscobayboatcruise.com/wp-content/uploads/SF-Giants-Logo.jpg"/>
+        </div>
+        <div class = "sports">
+          <img src = "http://prod.static.49ers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/SF/logos/home/large.png"/>
+        </div>
+          </div>
+
+         <h2>Goals for this course</h2>
+          <ul>
+            <li> Learn more Javascript!</li>
+            <li> Program something on my own.</li>
+            <li> Challenge myself.</li>
+          </ul>
+               
+
+    
+
+
+
+    <script>
+      var pics = document.getElementsByTagName('img');
+      for (var i = 0; i < pics.length; i++) {
+        pics[i].style.height = "300px";
+      };
+
+      var body = document.body;
+        body.style.margin = '0 auto';
+        body.style.width = "300px";
+
+      var paragraphs = document.getElementsByTagName('p');
+      for (var i = 0; i < paragraphs.length; i++) {
+        paragraphs[i].style.margin = '0';
+      };
+  
+
+      var headers = document.getElementsByTagName('h2');
+      for (var i = 0; i < headers.length; i++) {
+        headers[i].style.fontSize = "25px";
+        headers[i].style.color= "#8C5968";
+      };
+
+      var allElementsWithinBody = document.body.children
+      for (var i = 0; i < allElementsWithinBody.length; i++) {
+        allElementsWithinBody[i].style.fontFamily = "cursive";
+      }
+
+  
+      </script>
+  </body>
+</html>
